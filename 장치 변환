@@ -1,0 +1,8 @@
+cpu = torch.FloatTensor([1,2,3])
+gpu=cpu.cuda() #cpu장치로 선언된 값을 gpu로 변환한다
+gpu2cpu=gpu.cpu() #cpu로 변환함
+cpu2gpu=cpu.to("cuda")
+print(cpu)
+print(gpu)
+print(gpu2cpu)
+print(cpu2gpu)
