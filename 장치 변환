@@ -4,5 +4,5 @@ gpu2cpu=gpu.cpu() #cpu로 변환함
 cpu2gpu=cpu.to("cuda")
 print(cpu)
 print(gpu)
-print(gpu2cpu)
+print(gpu2cpu) #to메서드는 모든 장치간의 텐서 변환 수행함
 print(cpu2gpu)
