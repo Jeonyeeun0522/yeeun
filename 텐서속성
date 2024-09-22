@@ -1,0 +1,6 @@
+import torch
+tensor = torch.rand(1,2) #rand()는 0과1 사이의 무작위 숫자를 균등 분포로 생성하는 함수, 1, 2는 생성하려는 텐서의 형태를 의미
+print(tensor)
+print(tensor.shape)
+print(tensor.dtype) #자료형을 의미
+print(tensor.deviece) #장치
