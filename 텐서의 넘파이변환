@@ -1,0 +1,6 @@
+import torch
+
+tensor = torch.cuda.FloatTensor([1,2,3])
+ndarray = tensor.detach().cpu().numpy() #detach메서드는 현재 연산 그래프에서 분리된 새로운 텐서를 반환
+print(ndarray)
+print(type(ndarray))
