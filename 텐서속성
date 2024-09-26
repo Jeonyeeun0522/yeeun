@@ -3,4 +3,4 @@ tensor = torch.rand(1,2) #rand()는 0과1 사이의 무작위 숫자를 균등 �
 print(tensor)
 print(tensor.shape)
 print(tensor.dtype) #자료형을 의미
-print(tensor.deviece) #장치
+print(tensor.device) #장치
